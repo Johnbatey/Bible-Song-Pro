@@ -14,9 +14,11 @@
     <rect x="6" y="6" width="508" height="120" rx="24" fill="url(#bg)"/>
     <rect x="6.5" y="6.5" width="507" height="119" rx="23.5" fill="none" stroke="#8dc2ff" stroke-opacity="0.45"/>
   </g>
-  <g fill="#ffffff">
-    <path d="M96 42c-4.4 0-8 3.6-8 8v28h16V50c0-4.4-3.6-8-8-8zm-20 18h12v18H76c-4.4 0-8-3.6-8-8v-2c0-4.4 3.6-8 8-8zm28 0h12c4.4 0 8 3.6 8 8v2c0 4.4-3.6 8-8 8h-12V60z"/>
-    <path d="M96 88l-18-18h12V54h12v16h12L96 88z"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="68" y="36" width="56" height="56" rx="12"/>
+    <path d="M96 48v24"/>
+    <path d="M84 62l12 12 12-12"/>
+    <path d="M80 96h32"/>
   </g>
   <text x="150" y="56" fill="#d8ebff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="0.12em">DOWNLOAD</text>
   <text x="150" y="94" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Bible Song Pro v1.0</text>
