@@ -73,15 +73,11 @@ Current release: `Version 1.0`
 ### Main Interface
 
 ![Interface 01](Bible%20Song%20Pro_Screenshot/Interface%2001.png)
-![Song Mode Fullscreen](Bible%20Song%20Pro_Screenshot/Song%20Mode_Fullscreen.png)
 ![Lowerthird Mode](Bible%20Song%20Pro_Screenshot/Lowerthird%20Mode.png)
 
 ### Standout Features
 
-![Auto-Retrieve Lyrics 01](Bible%20Song%20Pro_Screenshot/Auto-Retrieve%20Lyrics%2001.png)
 ![Auto-Retrieve Lyrics 02](Bible%20Song%20Pro_Screenshot/Auto-Retrieve%20Lyrics%2002.png)
-![Dual Bible Version 01](Bible%20Song%20Pro_Screenshot/Dual%20Bible%20Version%2001.png)
-![Quick Actions](Bible%20Song%20Pro_Screenshot/Quick%20Actions.png)
 ![Support for 50+ Languages](Bible%20Song%20Pro_Screenshot/Support%20for%2050%2B%20Languages.png)
 ![Gradient Background](Bible%20Song%20Pro_Screenshot/Gradient%20Background.png)
 
@@ -103,7 +99,9 @@ The download package for end users is:
 
 - `Bible-Song-Pro-plugin.zip`
 
-[![Download Bible Song Pro](https://img.shields.io/badge/Download-Bible%20Song%20Pro%20v1.0-0a84ff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Johnbatey/Bible-Song-Pro/releases/download/v1.0/Bible-Song-Pro-plugin.zip)
+<a href="https://github.com/Johnbatey/Bible-Song-Pro/releases/download/v1.0/Bible-Song-Pro-plugin.zip">
+  <img src="https://img.shields.io/badge/Download-Bible%20Song%20Pro%20v1.0-0a84ff?style=for-the-badge&logo=github&logoColor=white" alt="Download Bible Song Pro" height="84">
+</a>
 
 That zip contains only:
 
