@@ -35811,6 +35811,11 @@ isiSembulo
         state
       };
       broadcastMessage(msg);
+      try {
+        if (window.parent && window.parent !== window) {
+          window.parent.postMessage({ source: 'bsp-panel-parent', message: msg }, '*');
+        }
+      } catch (_) {}
     }
 
     function getLibraryCounts() {
@@ -40164,6 +40169,11 @@ isiSembulo
         ...payload
       };
       broadcastMessage(msg);
+      try {
+        if (window.parent && window.parent !== window) {
+          window.parent.postMessage({ source: 'bsp-panel-parent', message: msg }, '*');
+        }
+      } catch (_) {}
       embeddedProgramDisplayState = { kind: 'update', payload: msg };
       syncEmbeddedProgramDisplay();
       syncStandaloneOutputDirect();
@@ -40186,6 +40196,11 @@ isiSembulo
       if (opts.transitionDuration != null) msg.transitionDuration = opts.transitionDuration;
       if (opts.fade != null) msg.fade = !!opts.fade;
       broadcastMessage(msg);
+      try {
+        if (window.parent && window.parent !== window) {
+          window.parent.postMessage({ source: 'bsp-panel-parent', message: msg }, '*');
+        }
+      } catch (_) {}
       embeddedProgramDisplayState = { kind: 'clear' };
       syncEmbeddedProgramDisplay();
       syncStandaloneOutputDirect();
@@ -63115,7 +63130,7 @@ isiSembulo
     }
 
     function getDisplayFileForTab(tabId, mode = 'embedded') {
-      return mode === 'standalone' ? 'display.html?standalone=1' : 'display.html?embedded=1';
+      return mode === 'standalone' ? 'BSP_display.html?standalone=1' : 'BSP_display.html?embedded=1';
     }
 
     function setDockSceneTab(tabId) {
